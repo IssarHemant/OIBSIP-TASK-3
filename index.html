@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="tempCalc" onsubmit="calculateTemp(); return false">
+        <div class="heading">
+          <label for="temp" class="temperature-heading"
+            >TEMPERATURE CONVERTER</label
+          >
+        </div>
+        <div class="temperature-conversion-box">
+          <div class="degree-box">
+            <label for="temp" class="degree">DEGREE</label>
+            <input type="number" name="temp" id="temp" />
+          </div>
+          <div class="value-box">
+            <label for="temp_diff" class="value">TYPE</label>
+            <select name="temp_diff" id="temp_diff">
+              <option value="fah">Fahrenheit</option>
+              <option value="cel">Celsius</option>
+            </select>
+          </div>
+        </div>
+        <div id="resultContainer"></div>
+        <div class="submit-button">
+          <input type="submit" name="temp" id="submit" />
+        </div>
+        <p class="watermark">MADE BY HEMANT ISSAR</p>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
