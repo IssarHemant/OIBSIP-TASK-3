@@ -27,11 +27,11 @@ body {
     text-align: center;
     font-size: 1.3rem;
   }
-  .degree-box {
+  .value-box {
     display: flex;
     flex-direction: column;
   }
-  .degree {
+  .value {
     font-weight: bold;
     color: goldenrod;
     margin-bottom: 20px;
@@ -41,11 +41,11 @@ body {
     justify-content: space-between;
     gap: 90px;
   }
-  .value-box {
+  .conversion-box {
     display: flex;
     flex-direction: column;
   }
-  .value {
+  .conversion {
     font-weight: bold;
     color: goldenrod;
     margin-bottom: 20px;
